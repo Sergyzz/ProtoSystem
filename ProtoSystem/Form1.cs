@@ -35,6 +35,7 @@ namespace ProtoSystem
             DataTable dt = new DataTable();
             sd.Fill(dt);
             dataGridView1.DataSource = dt;
+            dataGridView1.ReadOnly = true;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -63,6 +64,11 @@ namespace ProtoSystem
             MessageBox.Show("Successfully Deleted.");
             BindData();
             }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+          
         }
     }
 }
