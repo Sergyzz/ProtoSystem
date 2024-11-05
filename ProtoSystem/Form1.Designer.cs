@@ -140,7 +140,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.LightSlateGray;
             this.button2.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(163, 392);
+            this.button2.Location = new System.Drawing.Point(164, 392);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(104, 47);
             this.button2.TabIndex = 4;
